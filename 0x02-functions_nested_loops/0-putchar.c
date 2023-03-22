@@ -1,10 +1,11 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * main - Prints alx   as a message.
+ * main - Prints alx  as a message.
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 
  */
+
 int main(void)
 
 {
