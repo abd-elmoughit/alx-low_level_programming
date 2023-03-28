@@ -2,20 +2,21 @@
 #include <stdio.h>
 
 /**
- * print_rev - prints a string in reverse, followed by a new line
- * @s: the string to print
+ * print_rev - prints a string in reverse
+ * @s: The string to print
+ * Return: void
  */
 void print_rev(char *s)
 {
-	int i;
+int c = 0;
+while (s[c] != '\0')
+{
+c++;
+}
 
-	for (i = 0; s[i] != '\0'; i++)
-	{
-		;
-		for (i--; i >= 0; i--)
-		{
-			_putchar(s[i]);
-		}
-	}
-	_putchar('\n');
+for (c -= 1; c >= 0; c--)
+{
+_putchar(s[c]);
+}
+_putchar('\n');
 }
