@@ -1,11 +1,16 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
 
+/**
+ * _isdigit - entry point
+ * @c: c is a digit
+ *
+ * Description: checks for a digit (0 through 9).
+ * Return: 1 if c is a digit, 0 otherwise
+ */
 int _isdigit(int c)
 {
-    return isdigit(c);
+	if (c >= '0' && c <= '9')
+		return (1);
+	else
+		return (0);
 }
-

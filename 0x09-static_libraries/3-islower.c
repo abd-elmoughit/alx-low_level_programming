@@ -1,11 +1,19 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
 
+/**
+ * _islower - dqzdqzdqzdqzd
+ * @c: Description of parameter x
+ *
+ * Description: ddzqdqzd
+ * section header: Section description)*
+ * Return: Description of the returned value
+ */
 int _islower(int c)
 {
-    return (c >= 'a' && c <= 'z');
+	if (c >= 65 && c <=  90)
+		return (0);
+	else if (c >= 97 && c <= 122)
+		return (1);
+	else
+		return (0);
 }
-
